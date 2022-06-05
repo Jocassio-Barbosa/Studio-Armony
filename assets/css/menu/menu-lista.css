@@ -1,0 +1,18 @@
+.menu__lista{
+    display: inline-flex;
+    gap: 30px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+	.menu__lista{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .menu__lista{
+        gap: 20px;
+    }
+
+}

@@ -1,0 +1,20 @@
+.motivo{
+    display: flex;
+    padding: 5rem 0 5rem 20%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+    .motivo{
+        padding-left: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .motivo{
+        padding-left: 0px;
+    }
+
+}

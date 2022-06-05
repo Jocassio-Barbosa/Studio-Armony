@@ -1,0 +1,24 @@
+.menu__item{
+    color: var(--rosa-claro);
+    font-size: 1.5rem;
+    font-weight: 100;
+    list-style: none;
+}
+
+.menu__link.ativo {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+	.menu__item--icone{
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.menu__item{
+        font-size: 1.2rem;
+        list-style: none;
+    }
+
+}

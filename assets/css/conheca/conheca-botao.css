@@ -1,0 +1,18 @@
+.conheca__conteudo--botao{
+    background-color: #c6def3;
+    border-radius: 0.3rem;
+    color: var(--roxo-sangue);
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+	font-weight: 700;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+	width: 10rem;
+    transition: 0.5s ease;
+    box-shadow: 2px 2px 10px #a1a1a1;
+}
+
+.conheca__conteudo--botao:hover{
+    background-color: transparent;
+}

@@ -1,0 +1,12 @@
+:root{
+	--roxo-padrao: #b70bc7;
+	--azul-escuro:	#240fe2;
+	--rosa-claro: #D27FD3;
+	--roxo-sangue: #500B3E;
+    --Cabin: 'Cabin Sketch', sans-serif;
+}
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+}

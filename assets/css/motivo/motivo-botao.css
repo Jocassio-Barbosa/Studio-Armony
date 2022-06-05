@@ -1,0 +1,55 @@
+.motivo__botao{
+    display: flex;
+	gap: 1.5rem;
+	text-align: center;
+    margin-top: 1.5rem;
+}
+
+.motivo__botao--fazer{
+    background-color: var(--roxo-sangue);
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: var(--branco-principal);
+    text-decoration: none;
+	border: 1px solid #500B3E;
+	width: 12rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: white;
+    box-shadow: 2px 2px 10px #7e7e7e;
+}
+
+.motivo__botao--fazer:hover{
+	color: var(--roxo-sangue);
+	background-color: transparent;
+}
+
+.motivo__botao--conhecer{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: var(--branco-principal);
+    text-decoration: none;
+	border: 1px solid #500B3E;
+	width: 12rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: var(--roxo-sangue);
+    box-shadow: 2px 2px 10px #7e7e7e;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+	.motivo__botao--conhecer{
+		width: 50%;
+	}
+
+	.motivo__botao--fazer{
+		width: 50%;
+	}
+
+}
+
+.motivo__botao--conhecer:hover{
+	color: white;
+	background-color: var(--roxo-sangue);
+}

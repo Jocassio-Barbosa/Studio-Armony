@@ -1,0 +1,8 @@
+.cabecalho__titulo {
+	text-transform: uppercase;
+	font-family: var(--Cabin);
+	font-size: 5rem;
+	font-weight: 700;
+	color: var(--roxo-padrao);
+	padding: 0.2rem 0;
+}

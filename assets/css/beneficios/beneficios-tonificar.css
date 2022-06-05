@@ -1,0 +1,39 @@
+.beneficios__tonificar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.beneficios__tonificar--titulo{
+    background-color: #500B3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+	border-radius: 100%;
+	width: 10rem;
+	height: 10rem;
+	align-items: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.beneficios__tonificar strong::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 51px;
+    height: 1px;
+    left: 35%;
+    top: 104px;
+    border: 1px solid white;
+}
+
+.beneficios__tonificar p {
+    width: 70%;
+}

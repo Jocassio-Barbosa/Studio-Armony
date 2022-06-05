@@ -1,0 +1,16 @@
+.rodape__social{
+    display: flex;
+    gap: 3rem;
+}
+
+.rodape .rodape__social i {
+    font-size: 200px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 425px){
+
+    .rodape .rodape__social i {
+        font-size: 100px;
+    }
+
+}

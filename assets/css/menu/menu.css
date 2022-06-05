@@ -1,0 +1,17 @@
+.menu{
+    position: sticky;
+	top: 0px;
+	z-index: 1;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding:  20px 0 20px 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px){
+	.menu {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2px;
+    }
+}

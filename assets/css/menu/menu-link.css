@@ -1,0 +1,28 @@
+.menu__link{
+    transition: 2ms ease-in;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu__link:before{
+    content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 0px;
+	height: 2px;
+	background-color: var(--azul-escuro);
+	transition: all 1s ease;
+}
+
+.menu__link:hover:before {
+	width: 100%;
+	
+}
+
+.menu__link--icone{
+    font-weight: bold;
+    font-size: 1.752rem;
+    color: brown;
+}

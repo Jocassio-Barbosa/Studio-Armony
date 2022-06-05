@@ -1,0 +1,30 @@
+.rodape{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #FDE3EC;
+	height: 60vh;
+    gap: 10px;
+
+	color: var(--roxo-sangue);
+}
+
+.rodape__endereco{
+    font-size: 2rem;
+	font-weight: 700;
+	color: #5e90bc;
+}
+
+.rodape__titulo{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.rodape i {
+    font-size: 1rem;
+}
+
+

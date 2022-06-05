@@ -1,0 +1,8 @@
+.cabecalho__slogan{
+    font-size: 2rem;
+	color: var(--rosa-claro);
+}
+
+.cabecalho__slogan strong {
+	font-weight: 700;
+}

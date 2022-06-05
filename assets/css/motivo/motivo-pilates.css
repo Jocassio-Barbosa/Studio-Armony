@@ -1,0 +1,33 @@
+.motivo__pilates{
+    color: #898989;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-left: 0.785rem;
+    width: 50%;
+    text-align: justify;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+    .motivo__pilates{
+        width: 100%;
+    }
+
+}
+
+.motivo__pilates p {
+    margin-bottom: 0.576rem;
+}
+
+.motivo__pilates--titulo{
+    font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--roxo-padrao);
+	margin: 0 0 1.5rem 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .motivo__pilates--titulo{
+        display: inline;
+    }
+
+}

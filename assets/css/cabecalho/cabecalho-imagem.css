@@ -1,0 +1,42 @@
+.cabecalho__imagem{
+	position: absolute;
+	background: url('../../img/logon.png') no-repeat center / cover ;
+	left: 5%;
+	height: 250px;
+	width: 300px;
+	
+}
+
+/*media screnn*/
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+	.cabecalho__imagem{
+		align-items: center;
+		position: relative;
+		background: url('../../img/logon.png') no-repeat center / contain ;
+		left: 0px;
+	}
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.cabecalho__imagem{
+		align-items: center;
+		position: relative;
+		background: url('../../img/logon.png') no-repeat center / contain ;
+		left: 0px;
+	}
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1337px){
+	.cabecalho__imagem{
+		align-items: center;
+		position: relative;
+		background: url('../../img/logon.png') no-repeat center / contain ;
+        left: 0;
+	}
+	
+}

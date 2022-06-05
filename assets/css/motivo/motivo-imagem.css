@@ -1,0 +1,10 @@
+.motivo__imagem{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px){ 
+    .motivo__imagem{
+        display: none;
+    }
+}

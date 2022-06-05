@@ -1,0 +1,301 @@
+nav{
+	
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	justify-content: center;
+	text-align: center;
+	background-color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;	
+}
+nav li{
+	display: inline;
+	margin: 1.5em;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #D27FD3;
+	font-size: 1rem;
+	text-decoration: none;
+	transition: 2ms ease-in;
+	position: relative;
+}
+
+nav a:before {
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 0px;
+	height: 2px;
+	background-color: #051ef7;
+	transition: all 1s ease;
+}
+
+nav a:hover:before {
+	width: 100%;
+	
+}
+
+nav i {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/*conteudo principal */
+.container__principal {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(rgba(140, 185, 245, 0.8), rgb(251, 251, 252));
+}
+
+
+.principal__titulo--botao {
+	position: absolute;
+	right: 30rem;
+	top: 30rem;
+}
+
+.principal__titulo--botao h2 {
+	font-size: 4rem;
+	font-weight: 700;
+	color: var(--roxo-padrao);
+}
+
+.principal__titulo--botao h3 {
+	font-size: 1.4rem;
+	color: #86b8e3;
+	margin-bottom: 2.5rem;
+	
+}
+
+.container__botao {
+    background-color: #86b8e3;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    color: white;
+    display: block;
+    text-decoration: none;
+	width: 10rem;
+}
+
+.principal__titulo--botao  a {
+	font-size: 1rem;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 0.2rem;
+}
+
+.principal__titulo--botao  a:hover{
+	background-color: transparent;
+	color: var(--roxo-padrao);
+}
+
+.container__pilates{
+	background-image: url(../img/pilates-bg.png);
+}
+
+/*cor do artigo #898989*/
+.container__pilates--conteudo{
+	display: flex;
+}
+
+.container__pilates--img{
+	margin-left: 20rem;
+	padding: 2rem;
+}
+
+.container__pilates--artigo{
+	display: flex;
+	flex-direction: column;
+	margin-right: 25rem;
+}
+
+.container__pilates--artigo h2{
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--roxo-padrao);
+	margin: 1.8rem 0 2.5rem 0;
+	
+}
+
+.container__pilates--artigo p {
+	font-size: 1rem;
+	color: #898989;
+	font-weight: 400;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	line-height: 1.8rem;
+	text-align: justify;
+	
+}
+.container__pilates--botoes{
+	display: flex;
+	gap: 1.5rem;
+	text-align: center;
+}
+
+.bt01 {
+	background-color: var(--roxo-sangue);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-bottom: 1rem;
+	border: 1px solid #500B3E;
+	/*width: 20%;*/
+	width: 12rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: white;
+}
+
+.bt01:hover{
+	color: var(--roxo-escuro);
+	background-color: transparent;
+}
+.bt02 {
+	background-color: transparent;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin-bottom: 1rem;
+	border: 1px solid #500B3E;
+	width: 12rem;
+	color: var(--roxo-escuro);
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.bt02:hover{
+	color: white;
+	background-color: var(--roxo-sangue);
+}
+
+	/*container beneficio */
+.container__beneficios{
+	display: grid;
+	background: linear-gradient(rgb(251, 251, 252), rgba(140, 185, 245, 0.8));
+	width: 100%;
+	justify-content: center;
+	padding: 2rem 0 4rem 0;
+}
+
+.caixa__beneficios{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	gap: 5rem;
+	padding: 2rem 0 2rem 0;
+}
+
+.container__beneficios--conteudo{
+	text-align: center;
+	width: 15rem;
+}
+
+	/*beneficios alongar */
+.conteudo__alongar--circulo {
+	display: grid;
+	color: white;
+	background-color: var(--roxo-escuro);
+	border-radius: 7.5rem;
+	width: 14rem;
+	height: 14rem;
+	align-items: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.container__beneficios--conteudo p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	padding-top: 1rem;
+	box-sizing: border-box;
+	color: #898989;
+}
+
+/*beneficios condicionar */
+.conteudo__condicionar--circulo {
+	display: grid;
+	color: var(--roxo-escuro);
+	background-color: white;
+	border-radius: 7.5rem;
+	width: 14rem;
+	height: 14rem;
+	align-items: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+/*beneficios tonificar */
+.conteudo__tonificar--circulo {
+	display: grid;
+	color: white;
+	background-color: var(--roxo-escuro);
+	border-radius: 7.5rem;
+	width: 14rem;
+	height: 14rem;
+	align-items: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.rodape{
+	background-color:  #FDE3EC;
+	height: 60vh;
+}
+
+.rodape .container{
+	display: grid;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.contato__endereco {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.contato__endereco .endereco__rua{
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: var(--roxo-sangue);
+}
+
+.contato__endereco .endereco__cidade{
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+	color: #5e90bc;
+}
+
+.rodape__container--contato .contato__texto{
+	font-size: 1.5rem;
+	color: var(--roxo-sangue);
+	margin-bottom: 1rem;
+}
+
+.rodape__container--contato .contato__telefone {
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+	font-size: 1.5em;
+	color: #5e90bc;
+}
+
+.rodape__container--social {
+	display: flex;
+	color: var(--roxo-sangue);
+	gap: 3rem;
+	justify-content: center;
+}
+
+.rodape__container--social .social{
+	font-size: 15rem;
+}
